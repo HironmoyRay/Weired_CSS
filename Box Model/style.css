@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.demo1{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+
+    box-sizing: content-box;
+
+    padding: 10px;
+    border: 5px solid black;
+    outline: 5px dashed aqua;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demo2{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+
+    box-sizing: border-box;
+
+    padding: 10px;
+    border: 5px solid black;
+    outline: 5px dashed aqua;
+    margin: 10px;
+
+    /* display: grid;
+    place-items: center; */
+    position: relative;
+}
+
+.demo2 h1{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50% );
+}
