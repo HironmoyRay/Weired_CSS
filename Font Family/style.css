@@ -20,3 +20,9 @@ p{
     text-align-last: center;
     padding: 10px;
 }
+
+h3{
+    font-size: 50px;
+    text-shadow: 2px 5px 5px gray;
+    /* text-shadow: left top blur color; */
+}
