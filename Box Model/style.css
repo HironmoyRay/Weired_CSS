@@ -1,45 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.demo1{
-    width: 400px;
-    height: 200px;
-    background-color: aquamarine;
+.demo1 {
+  width: 400px;
+  height: 200px;
+  background-color: aquamarine;
 
-    box-sizing: content-box;
+  box-sizing: content-box;
 
-    padding: 10px;
-    border: 5px solid black;
-    outline: 5px dashed aqua;
-    margin: 10px;
+  padding: 10px;
+  border: 5px solid black;
+  outline: 15px dashed aqua;
+  margin: 5px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.demo2{
-    width: 400px;
-    height: 200px;
-    background-color: aquamarine;
+.demo2 {
+  width: 400px;
+  height: 200px;
+  background-color: aquamarine;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    padding: 10px;
-    border: 5px solid black;
-    outline: 5px dashed aqua;
-    margin: 10px;
+  padding: 10px;
+  border: 5px solid black;
+  /* outline: 10px dashed aqua;
+    margin: 5px; */
 
-    /* display: grid;
+  /* display: grid;
     place-items: center; */
-    position: relative;
+  position: relative;
 }
 
-.demo2 h1{
-    position:absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50% );
+.demo2 h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+html {
+  background-color: antiquewhite;
+  height: 100%;
+}
+body{
+    background-color: blueviolet;
+    height: 50%;
+    margin: 0px;
+    padding: ;
+}
+.parent {
+  width: 500px;
+  height: 50%;
+  font-size: 20px;
+  border: 20px solid cyan;
+  margin: 10px;
+  background: palevioletred;
+  box-sizing: border-box;
 }
