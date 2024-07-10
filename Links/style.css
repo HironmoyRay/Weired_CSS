@@ -1,0 +1,28 @@
+div {
+    width: 70%;
+    text-align: center;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px auto;
+}
+h1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  a{
+    font-size: 30px;
+  }
+  a:hover{
+    color:aqua;
+  }
+  /* Active Vs Focus : Almost Same but Priority first Cascading Rules  */
+  
+  a:focus{
+    color:orange;
+  }
+  a:active{
+    color:aquamarine;
+    color:white;
+    background-color: blueviolet;
+  }
