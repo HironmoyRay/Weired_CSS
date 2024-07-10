@@ -1,0 +1,17 @@
+div {
+    width: 70%;
+    text-align: center;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+i,span {
+  color: rgb(18, 107, 233);
+}
