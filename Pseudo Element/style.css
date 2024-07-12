@@ -16,7 +16,7 @@ button {
     rgb(224, 7, 206),
     rgb(20, 84, 210)
   ); */
-  background-color: gray;
+  background-color: #2c3e50;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: 0px;
   border-radius: 1000px;
@@ -47,4 +47,15 @@ button:hover {
   z-index: 2;
   box-shadow: 5px 0px 5px rgba(20, 83, 210, 0.438),
   -5px 0px 5px rgba(224, 7, 206, 0.501) ;
+  cursor: pointer;
+}
+
+/* li:first-child{
+    color:aqua
+}
+li:last-child{
+    color: aquamarine;
+} */
+li:nth-child(2n+2){
+    color: purple;
 }
