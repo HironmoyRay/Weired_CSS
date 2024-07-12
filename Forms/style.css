@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+.contact{
+  text-align: center;
+  border: 1px solid #ddd;
+  width: 80%;
+  padding: 5%;
+  margin: 15px auto;
+ 
+}
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.contact p{
+    color: #857676;
+    margin-bottom: 10px;
+}
+.child_form{
+    margin-top: 25px;
+    text-align: left;
+
+}
+
+.child_form label{
+    display: block;
+    margin-bottom: 10px;
+}
+.child_form input{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 10px 3%;
+}
+.child_form textarea , .child_form select{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 10px 3%;
+    font-family: "Poppins", sans-serif;
+}
+
+.child_form input[type='button']{
+    background-color: rgba(128, 0, 128, 0.61);
+    color: #fff;
+    width: 200px;
+    border-radius: 5px;
+}
+.child_form input[type='button']:hover{
+    background-color: rgb(128, 0, 128);
+    
+}
+.child_form:last-child{
+    /* margin-bottom: 0px; */
+    /* padding-bottom: 0px; */
+}
