@@ -46,13 +46,16 @@
 }
 
 .child_form input[type='button']{
-    background-color: rgba(128, 0, 128, 0.61);
+    background-color: rgba(128, 0, 128, 0.918);
     color: #fff;
     width: 200px;
     border-radius: 5px;
+    transition: .5s;
+    
 }
 .child_form input[type='button']:hover{
     background-color: rgb(128, 0, 128);
+    font-weight: bold;
     
 }
 .child_form:last-child{
