@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  height: 100%;
+  background-color: orangered;
+}
+
 
 nav {
   background-color: #2c3e50;
@@ -17,6 +22,12 @@ nav ul li {
 }
 nav ul li:hover {
   background-color: #7f8c8d;
+  border-radius:1px 20px ;
+  
+}
+#services:hover{
+  border-radius:1px 20px ;
+  background-color: orangered;
 }
 
 nav ul li:hover ul {
@@ -32,12 +43,18 @@ nav ul li a {
 }
 nav ul ul {
   position: absolute;
-  background-color: #2c3e50;
+  background-color: rgba(255, 255, 255, 0.266);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.266);
+  border-left: 1px solid rgba(255, 255, 255, 0.266);
   display: none;
+  border-radius: 0px 20px 5px;
+  box-shadow: 3px 3px 3px rgba(00, 00, 00, .089);
 }
 
 nav ul ul li {
   display: block;
+  border-radius: 5px 20px;
   
 }
 nav ul ul li:hover {
